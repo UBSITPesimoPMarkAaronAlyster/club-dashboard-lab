@@ -46,6 +46,10 @@ const App = () => {
           />
         ))}
    </section>
+   <h1>Member Activities</h1>
+   <p>Activity 1</p>
+   <p>Activity 2</p>
+   <p>Activity 3</p>
     </>
   );
 };
