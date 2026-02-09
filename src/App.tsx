@@ -4,34 +4,34 @@ import MembersList from "./MembersList";
 const App = () => {
   const members = [
     { 
-      name: "Mark Aaron Alyster P. Pesimo", 
+      name: "Alyster Pesimo", 
       course: "BSIT", 
       status: "Active", 
       email: "20246896@s.ubaguio.edu", 
-      phone: "09761492051", 
-      activities: ["Orientation", "Workshop", "Club Meeting"]
+      phone: "09666888712", 
+      activities: ["Gaming", "Cubing", "Playing"]
     },
     { 
       name: "Joe Jujutsu", 
       course: "BSCS", 
       status: "Inactive", 
       email: "20243232@s.ubaguio.edu", 
-      phone: "09763492054",
-      activities: ["Fundraiser", "Seminar", "Volunteer Event"] 
+      phone: "09671288007",
+      activities: ["Martial Arts", "Seminar", "Battle"] 
     },
     { 
       name: "Mary Grace Solis", 
       course: "BSCS", 
       status: "Active", 
       email: "20246004@s.ubaguio.edu", 
-      phone: "0976762904",
-      activities: ["Project planning", "Social Event", "Leadership Training"]
+      phone: "092342342",
+      activities: ["Gaming", "Ramping", "Dancing"]
     }
   ];
 
   return (
     <>
-      <h1>School of Information Technology Students</h1>
+      <h1>School of SIT Students</h1>
       <section>
         <h2>List of Students</h2>
         {members.map((member, index) => (
